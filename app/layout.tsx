@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { AnimatePresence, motion } from "framer-motion";
 import "./globals.css";
 import ThemeProvider from "@/components/theme-provider";
+import Navbar from "@/components/navbar";
+import Transition from "@/components/transition";
 
 const geistSans = localFont({
     src: "./fonts/GeistVF.woff",
@@ -28,7 +31,11 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
                     defaultTheme="system"
                     enableSystem
                     disableTransitionOnChange>
-                        {children}
+                        <AnimatePresence mode="wait">
+                                <Transition></Transition>
+                            <Navbar></Navbar>
+                            {children}
+                        </AnimatePresence>
                 </ThemeProvider>
             </body>
         </html>
