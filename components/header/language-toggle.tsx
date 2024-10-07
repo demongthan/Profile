@@ -3,9 +3,9 @@
 import React from 'react'
 import Image from 'next/image'
 import { useLocale } from 'next-intl';
+import { usePathname, useRouter } from 'next/navigation';
 
 import { linkImageData } from '@/lib/data/link-image-data';
-import { usePathname, useRouter } from 'next/navigation';
 import { Language } from '@/lib/enum/language';
 
 const LanguageToggle = () => {

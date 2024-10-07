@@ -1,4 +1,4 @@
-import { AboutItem } from "../interface/about/about-item"
+import { AboutItem } from "../../interface/about/about-item"
 
 export const aboutData:AboutItem={
     titleEn:"About me",
@@ -13,7 +13,7 @@ export const aboutData:AboutItem={
             fieldValueEn:"Nguyen Van Nam"
         },
         {
-            fieldNameEn:"Pjone",
+            fieldNameEn:"Phone",
             fieldNameVi:"Số điện thoại",
             fieldValueEn:"0399161228",
             fieldValueVi:"0399161228"
@@ -35,6 +35,12 @@ export const aboutData:AboutItem={
             fieldNameVi:"Địa chỉ",
             fieldValueEn:"Topaz Home 2 Apartment Block A3, 144 Street 154, Tan Phu Ward, Thu Duc City, Ho Chi Minh City",
             fieldValueVi:"Chung cư Topaz Home 2 Block A3, 144 Đường 154, Phường Tân Phú, Thành phố Thủ Đức, Thành phố Hồ Chí Minh"
+        },
+        {
+            fieldNameVi:"Freelancer",
+            fieldNameEn:"Freelancer",
+            fieldValueVi:"Có sẵn",
+            fieldValueEn:"Available"
         }
     ]
 }
