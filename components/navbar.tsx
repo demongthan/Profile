@@ -1,13 +1,17 @@
 "use client"
 
-import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
 import { navData } from '@/lib/data/nav-data'
 import { NavItem } from '@/lib/interface/nav-item'
+import { useLocale } from 'next-intl'
+import { Link } from '@/i18n/routing'
 
 const Navbar = () => {
     const pathName=usePathname();
+    const locale = useLocale();
+
+    console.log(pathName)
 
     return (
         <nav className='flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 
@@ -17,9 +21,9 @@ const Navbar = () => {
                 {navData.map((link:NavItem, index:number)=>{
                     return (
                         <Link
-                        className={`${link.path===pathName && 'text-cyan-500 dark:text-fuchsia-500'} relative flex items-center group hover:text-cyan-300 dark:hover:text-fuchsia-300 transition-all duration-300`} 
+                        className={`${pathName===("/"+locale+link.path) && 'text-cyan-500 dark:text-indigo-600'} relative flex items-center group hover:text-cyan-300 dark:hover:text-indigo-600 transition-all duration-300`} 
                         key={index} 
-                        href={link.path}>
+                        href={`${link.path}`}>
                             <div className='absolute pr-14 right-0 hidden xl:group-hover:flex'>
                                 <div className='relative flex items-center p-[6px] rounded-[3px] text-black dark:text-white'>
                                     <div className='text-[12px] leading-none font-semibold capitalize'>

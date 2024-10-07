@@ -1,17 +1,10 @@
 {
-    "IndexPage": {
-      "title": "contoh next-intl",
-      "description": "Selamat datang di contoh Next.js Internationalization (i18n)! Demo ini memperlihatkan kekuatan App Router dan cara mengelola konten multibahasa dengan lancar menggunakan next-intl."
-    },
-    "NotFoundPage": {
-      "title": "Halaman Tidak Ditemukan",
-      "description": "Ups! Sepertinya Anda menemukan halaman yang tidak ada. Jangan khawatir, sihir internasionalisasi kami masih bekerja keras di bagian lain aplikasi. Silakan kembali untuk menjelajahi lebih lanjut!"
-    },
-    "Navigation": {
-      "home": "Beranda"
-    },
-    "Footer": {
-      "copyright": "© 2024 Aplikasi Anda. Hak cipta dilindungi."
+    "HomePage": {
+      "welcome": "CHÀO MỪNG ĐẾN THẾ GIỚI CỦA TÔI",
+      "hi":"Tôi là ",
+      "hireMe":"Thuê tôi",
+      "downloadCV":"Tải CV",
+      "description": "Nhà phát triển Full Stack tận tụy và hiệu quả với hơn 2+ năm kinh nghiệm trong việc thiết kế và phát triển các ứng dụng web hiện đại. Thành thạo trong việc xây dựng kiến trúc front-end và back-end, tôi có kinh nghiệm làm việc với nhiều framework và ngôn ngữ lập trình phổ biến hiện nay. Tôi chuyên phát triển các ứng dụng hiệu suất cao, có khả năng mở rộng và tuân thủ các tiêu chuẩn tốt nhất về bảo mật."
     }
   }
   

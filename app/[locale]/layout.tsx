@@ -9,6 +9,7 @@ import Navbar from "@/components/navbar";
 import Header from "@/components/header/header";
 import PageTransition from "@/components/transition/page-transition";
 import StairTransition from "@/components/transition/stair-transition";
+import ParticlesContainer from "@/components/particles-container";
 
 const geistSans = localFont({
     src: "./fonts/GeistVF.woff",
@@ -44,12 +45,15 @@ export default async  function LocaleLayout({children,params: { locale },}: Read
                         defaultTheme="system"
                         enableSystem
                         disableTransitionOnChange>
+                            <ParticlesContainer></ParticlesContainer>
                             <StairTransition></StairTransition>
                             <Header></Header>
                             <Navbar></Navbar>
                             <PageTransition>
                                 <NextIntlClientProvider messages={messages}>
-                                    {children}
+                                    <div className="pt-[10rem] w-[80%] mx-auto z-10">
+                                        {children}
+                                    </div>
                                 </NextIntlClientProvider>
                             </PageTransition>
                     </ThemeProvider>
