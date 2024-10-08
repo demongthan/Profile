@@ -12,11 +12,12 @@ export const educationData:EducationItem={
             specializedEn: "Telecommunications",
             universityEN:"Ho Chi Minh City University of Technology - Vietnam National University, Ho Chi Minh City",
             universityVi:"Trường Đại học Bách khoa - Đại học Quốc gia Thành phố Hồ Chí Minh",
-            durationVi:"1092018 - 11/2024",
+            durationVi:"10/2018 - 11/2024",
             durationEn:"09/2018 - 11/2024",
             GPA:"7.45/10",
             ClassificationEn:"Pass with Merit",
-            ClassificationVi:"Khá"
+            ClassificationVi:"Khá",
+            imageCertificate:""
         }
     ]
 }

@@ -7,5 +7,6 @@ export interface ItemsEducationItem{
     durationEn:string,
     GPA:string,
     ClassificationEn:string,
-    ClassificationVi:string
+    ClassificationVi:string,
+    imageCertificate:string
 }

@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger,} from "@/components/ui/tooltip"
 import Experience from '@/components/resume/experience'
+import Education from '@/components/resume/education';
 
 const Resume = () => {
     const t = useTranslations('ResumePage');
@@ -41,7 +42,7 @@ const Resume = () => {
                     </TabsContent>
 
                     <TabsContent value='education' className='w-full'>
-                        experience is
+                        <Education></Education>
                     </TabsContent>
 
                     <TabsContent value='skills' className='w-full'>

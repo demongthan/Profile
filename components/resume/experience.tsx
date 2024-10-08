@@ -1,8 +1,9 @@
 "use client"
 
-import { experienceData } from '@/lib/data/resume/experience-data'
 import React from 'react'
 import { useLocale } from 'next-intl';
+
+import { experienceData } from '@/lib/data/resume/experience-data'
 import { Language } from '@/lib/enum/language';
 import { ItemsExperienceItem } from '@/lib/interface/experience/items-experience-item';
 import { ScrollArea, ScrollBar } from '../ui/scroll-area';
@@ -13,14 +14,14 @@ const Experience = () => {
     return (
         <div className='flex flex-col gap-5 text-center xl:text-left w-full'>
             <h3 className='text-4xl font-bold'>{locale==Language.VietNam?experienceData.titleVi:experienceData.titleEn}</h3>
-            <p className='w-full text-white/70 mx-auto xl:mx-0 text-base'>
+            <p className='w-full text-black/70 dark:text-white/70 mx-auto xl:mx-0 text-base'>
                 {locale==Language.VietNam?experienceData.descriptionVi:experienceData.descriptionEn}
             </p>
 
             <ScrollArea className='h-[30rem]'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mr-4'>
                     {experienceData.items.map((item:ItemsExperienceItem, index:number) => (
-                        <div key={index} className='bg-[#232329] h-[13.5rem] px-5 py-3 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
+                        <div key={index} className='bg-slate-500 h-[13.5rem] px-5 py-3 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
                             <div className='flex flex-col h-[3rem]'>
                                 <span className='text-cyan-500'>{locale==Language.VietNam?item.durationVi:item.durationEn}</span>
                                 
