@@ -1,6 +1,4 @@
-import { IconType } from "react-icons";
-
 export interface SkillListItem{
-    icon:IconType,
+    icon:string,
     name:string,
 }

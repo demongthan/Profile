@@ -19,35 +19,39 @@ const Education = () => {
                 {locale==Language.VietNam?educationData.descriptionVi:educationData.descriptionEn}
             </p>
 
-            <ScrollArea className='h-[30rem]'>
+            <ScrollArea className='h-[33rem]'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mr-4'>
                     {educationData.items.map((item:ItemsEducationItem, index:number) => (
-                        <div key={index} className='bg-slate-400 h-[12rem] px-5 py-5 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
-                            <div className='flex flex-col h-[5rem]'>
-                                <span className='text-cyan-800 text-base font-semibold'>{locale==Language.VietNam?item.durationVi:item.durationEn}</span>
-                                
-                                <div>
-                                    <h3 className='text-sm'>{locale==Language.VietNam?(item.specializedVi+" - "+item.universityVi)
-                                    :(item.specializedEn+ " - "+item.universityEN)}</h3>
-                                </div>
-                            </div>
-                            
-                            <div className='flex flex-row w-full gap-2 h-[7rem]'>
-                                <div className='w-1/2'>
-                                    <div className='flex items-center gap-3 h-[1.5rem] pl-3'>
-                                        <span className='w-[6px] h-[6px] rounded-full bg-yellow-500'></span>
-                                        <p className='text-white'>{item.GPA}</p>
+                        <div key={index} className='bg-slate-400 h-[15rem] px-5 py-5 rounded-xl flex flex-row lg:items-start gap-1'>
+                            <div className='flex flex-col gap-1 w-2/5 h-full'>
+                                <div className='flex flex-col'>
+                                    <span className='text-cyan-800 text-base font-semibold'>{locale==Language.VietNam?item.durationVi:item.durationEn}</span>
+                                    
+                                    <div>
+                                        <h3 className='text-sm'>{locale==Language.VietNam?(item.specializedVi+" - "+item.universityVi)
+                                        :(item.specializedEn+ " - "+item.universityEN)}</h3>
                                     </div>
+                                </div>
 
-                                    <div className='flex items-center gap-3 h-[1.5rem] pl-3'>
+                                <div className='pt-2'>
+                                    {item.GPA && (
+                                        <div className='flex items-center gap-3 pl-3'>
+                                            <span className='w-[6px] h-[6px] rounded-full bg-yellow-500'></span>
+                                            <p className='text-white'>{item.GPA}</p>
+                                        </div>
+                                    )}
+
+                                    <div className='flex items-center gap-3 pl-3'>
                                         <span className='w-[6px] h-[6px] rounded-full bg-yellow-500'></span>
                                         <p className='text-white'>{locale==Language.VietNam?item.ClassificationVi:item.ClassificationEn}</p>
                                     </div>
                                 </div>
-                                
-                                <div className='w-1/2 h-full'>
+                            </div>
+                            
+                            <div className='w-3/5 h-full'>
+                                {item.imageCertificate && (
                                     <ImageModal src={item.imageCertificate}></ImageModal>
-                                </div>
+                                )}
                             </div>
                         </div>
                     ))}

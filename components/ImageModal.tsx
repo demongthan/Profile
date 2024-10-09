@@ -12,7 +12,7 @@ const ImageModal = ({src, className}:Props) => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
     return (
-        <div>
+        <div className='w-full h-full'>
             <Image alt='' src={src} width={0} height={0} sizes="100vw" style={{ width: '100%', height: '100%' }} className={`cursor-pointer ${className}`} onClick={() => setIsOpen(true)}></Image>
 
             {isOpen && (
