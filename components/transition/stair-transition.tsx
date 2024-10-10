@@ -12,12 +12,12 @@ const StairTransition = () => {
     return (
         <AnimatePresence mode="wait">
             <div key={pathName}>
-                <div className='h-screen w-screen fixed top-0 left-0 right-0 pointer-events-none z-[100] flex'>
+                <div className='h-full w-full fixed top-0 left-0 right-0 pointer-events-none z-[100] flex'>
                     <Stairs></Stairs>
                 </div>
 
                 <motion.div
-                    className="h-screen w-screen fixed bg-white dark:bg-slate-800 top-0 pointer-events-none"
+                    className="h-full w-full fixed bg-white dark:bg-slate-800 top-0 pointer-events-none"
                     initial={{opacity:1}}
                     animate={{
                         opacity:0,

@@ -51,7 +51,7 @@ export default async  function LocaleLayout({children,params: { locale },}: Read
                             <Navbar></Navbar>
                             <PageTransition>
                                 <NextIntlClientProvider messages={messages}>
-                                    <div className="pt-[8rem] w-[80%] mx-auto z-10">
+                                    <div className="pt-[4rem] pb-[4rem] w-[96%] xl:pt-[8rem] xl:w-[80%] mx-auto z-10">
                                         {children}
                                     </div>
                                 </NextIntlClientProvider>

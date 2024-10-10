@@ -11,5 +11,9 @@
     "experience":"Experience",
     "skills":"Skills",
     "about":"About Me"
+  },
+  "ContactPage":{
+    "title":"Let's work together",
+    "titleBtn":"Send message"
   }
 }

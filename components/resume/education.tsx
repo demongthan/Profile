@@ -22,8 +22,8 @@ const Education = () => {
             <ScrollArea className='h-[33rem]'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mr-4'>
                     {educationData.items.map((item:ItemsEducationItem, index:number) => (
-                        <div key={index} className='bg-slate-400 h-[15rem] px-5 py-5 rounded-xl flex flex-row lg:items-start gap-1'>
-                            <div className='flex flex-col gap-1 w-2/5 h-full'>
+                        <div key={index} className={`bg-slate-400 ${item.imageCertificate?"h-[25rem] xl:h-[15rem]":"h-[10rem] xl:h-[15rem]"} px-5 py-5 rounded-xl flex flex-col xl:flex-row lg:items-start gap-1`}>
+                            <div className='flex flex-col gap-1 w-full xl:w-2/5 h-[10rem] xl:h-full'>
                                 <div className='flex flex-col'>
                                     <span className='text-cyan-800 text-base font-semibold'>{locale==Language.VietNam?item.durationVi:item.durationEn}</span>
                                     
@@ -48,7 +48,7 @@ const Education = () => {
                                 </div>
                             </div>
                             
-                            <div className='w-3/5 h-full'>
+                            <div className='w-full xl:w-3/5 h-[15rem] xl:h-full'>
                                 {item.imageCertificate && (
                                     <ImageModal src={item.imageCertificate}></ImageModal>
                                 )}

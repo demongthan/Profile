@@ -21,8 +21,8 @@ const Experience = () => {
             <ScrollArea className='h-[33rem]'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mr-4'>
                     {experienceData.items.map((item:ItemsExperienceItem, index:number) => (
-                        <div key={index} className='bg-slate-400 h-[15rem] px-5 py-3 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
-                            <div className='flex flex-col h-[3rem]'>
+                        <div key={index} className='bg-slate-400 h-[20rem] xl:h-[15rem] px-5 py-3 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
+                            <div className='flex flex-col h-[4rem]'>
                                 <span className='text-cyan-800 text-base font-semibold'>{locale==Language.VietNam?item.durationVi:item.durationEn}</span>
                                 
                                 <div>
@@ -33,8 +33,8 @@ const Experience = () => {
                             
                             <p className='text-xl text-orange-200 font-semibold h-[1.5rem]'>{item.nameProject}</p>
                             
-                            <ScrollArea className='h-[10.5rem] py-2'>
-                                <table className="table-fixed mr-2 text-sm text-white">
+                            <ScrollArea className='h-[14.5rem] py-2'>
+                                <table className="table-fixed mr-2 text-sm text-white text-left">
                                     <tbody>
                                         <tr>
                                             <td className='border-r w-1/5 pr-1 text-left align-top'>Team size</td>

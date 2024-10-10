@@ -24,7 +24,7 @@ const Resume = () => {
                     ease: "easeInOut"
                 }
             }}
-            className='min-h-[80vh] w-full flex item-center justify-center py-12 xl:py-0'
+            className='min-h-[80vh] w-full flex item-center justify-center'
         >
             <Tabs 
                 defaultValue='experience'

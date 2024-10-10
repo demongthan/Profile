@@ -12,10 +12,10 @@ const Stats = () => {
     const locale = useLocale();
 
     return (
-        <div className='flex flex-wrap gap-6 w-full mx-auto xl:max-w-none text-black'>
+        <div className='flex flex-wrap gap-6 px-2 w-full mx-auto xl:max-w-none text-black'>
             {statsData.map((item:StatItem, index:number) =>{
                 return (
-                    <div key={index} className='flex-1 flex gap-4 items-center justify-center dark:text-white xl:justify-start'>
+                    <div key={index} className='flex gap-2 xl:gap-4 w-full xl:w-1/4 items-center justify-center dark:text-white xl:justify-start'>
                         <CountUp 
                             end={item.num} 
                             duration={5} 

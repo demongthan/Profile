@@ -1,7 +1,7 @@
-import { InfoContractItem } from "../interface/info-contract-item";
+import { InfoContactItem } from "../interface/info-contact-item";
 import {FaEnvelope, FaMapMarkedAlt, FaPhoneAlt} from "react-icons/fa"
 
-export const infoContractData:InfoContractItem[]=[
+export const infoContactData:InfoContactItem[]=[
     {
         icon:FaPhoneAlt,
         titleEn:"Phone",

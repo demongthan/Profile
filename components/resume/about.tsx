@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { useLocale } from 'next-intl';
+
 import { Language } from '@/lib/enum/language';
 import { aboutData } from '@/lib/data/resume/about-data';
 import { InfoAboutItem } from '@/lib/interface/about/info-about-item';
@@ -18,12 +19,12 @@ const About = () => {
                     {locale==Language.VietNam?aboutData.descriptionVi:aboutData.descriptionEn}
                 </p>
 
-                <ul className='grid grid-cols-1 xl:grid-cols-2 gap-y-6 gap-x-10'>
+                <ul className='grid grid-cols-1 xl:grid-cols-2 gap-y-4 xl:gap-y-6 gap-x-10 text-left'>
                     {aboutData.info.map((about:InfoAboutItem, index:number) =>{
                         return (
                             <li key={index} className='flex items-center justify-center xl:justify-start gap-4 text-xl'>
-                                <span className='w-[25%] text-slate-600 dark:text-slate-400 h-full'>{locale==Language.VietNam?about.fieldNameVi:about.fieldNameEn}</span>
-                                <span className='w-[75%] h-full'>{locale==Language.VietNam?about.fieldValueVi:about.fieldValueEn}</span>
+                                <span className='w-[30%] xl:w-[25%] text-slate-600 dark:text-slate-400 h-full'>{locale==Language.VietNam?about.fieldNameVi:about.fieldNameEn}</span>
+                                <span className='w-[70%] xl:w-[75%] h-full'>{locale==Language.VietNam?about.fieldValueVi:about.fieldValueEn}</span>
                             </li>
                         )
                     })} 

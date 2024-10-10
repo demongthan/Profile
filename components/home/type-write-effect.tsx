@@ -17,7 +17,7 @@ const TypeWriteEffect = () => {
             ]}
             wrapper="span"
             speed={50}
-            className='text-6xl text-indigo-700 font-bold dark:text-amber-300'
+            className='text-indigo-700 font-bold dark:text-amber-300'
             repeat={Infinity}
         >
         </TypeAnimation>

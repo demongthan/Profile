@@ -25,11 +25,11 @@ const Services = () => {
                             duration:0.4
                         }
                     }}
-                    className='grid grid-cols-1 md:grid-cols-2 gap-16'
+                    className='grid grid-cols-1 md:grid-cols-2 gap-7 xl:gap-16'
                 >
                     {serviceData.map((service:ServiceItem, index:number) =>{
                         return(
-                            <div key={index} className='flex-1 flex flex-col justify-center gap-6 group h-72'>
+                            <div key={index} className='flex-1 flex flex-col justify-center gap-2 xl:gap-6 group h-72'>
                                 <div className='w-full flex justify-between items-center h-10'>
                                     <div className='text-5xl font-extrabold text-transparent text-outline dark:text-outline-dark
                                     group-hover:cursor-pointer group-hover:text-outline-hover transition-all duration-500'>
@@ -42,9 +42,9 @@ const Services = () => {
                                     </Link>
                                 </div>
 
-                                <h2 className='text-4xl font-bold leading-none text-slate-500 dark:text-slate-300 group-hover:text-cyan-500 transition-all duration-500 h-6'>{service.title}</h2>
+                                <h2 className='text-xl xl:text-4xl font-bold leading-none text-slate-500 dark:text-slate-300 group-hover:text-cyan-500 transition-all duration-500 h-6'>{service.title}</h2>
 
-                                <p className='text-black/60 h-56 text-sm dark:text-white'>{locale==Language.VietNam?service.descriptionVi:service.descriptionEn}</p>
+                                <p className='text-black/60 h-56 text-xs xl:text-sm dark:text-white'>{locale==Language.VietNam?service.descriptionVi:service.descriptionEn}</p>
 
                                 <div className='border-b w-full'></div>
                                 

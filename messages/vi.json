@@ -11,6 +11,10 @@
     "experience":"Kinh Nghiệm",
     "skills":"Kĩ Năng",
     "about":"Thông Tin Cá Nhân"
+  },
+  "ContactPage":{
+    "title":"Hãy cùng nhau làm việc",
+    "titleBtn":"Gửi tin nhắn"
   }
 }
   

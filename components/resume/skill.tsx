@@ -21,13 +21,13 @@ const Skill = () => {
                     {locale==Language.VietNam?skillData.descriptionVi:skillData.descriptionEn}
                 </p>
 
-                <ul className='grid grid-cols-2 pt-10 sm:grid-cols-3 md:grid-cols-4 xl:gap-5'>
+                <ul className='grid grid-cols-2 pt-0 xl:pt-10 xl:grid-cols-4 gap-3 xl:gap-5'>
                     {skillData.skillList.map((skill:SkillListItem, index:number) =>{
                         return (
                             <li key={index} className='flex items-center justify-center'>
                                 <TooltipProvider delayDuration={100}>
                                     <Tooltip>
-                                        <TooltipTrigger className='w-full h-[130px] bg-slate-300 rounded-xl flex justify-center items-center group'>
+                                        <TooltipTrigger className='w-full h-[100px] xl:h-[130px] bg-slate-300 rounded-xl flex justify-center items-center group'>
                                             <Image src={skill.icon} alt={''} height={80} width={80} className='group-hover:scale-105'></Image>
                                         </TooltipTrigger>
                                         <TooltipContent>
