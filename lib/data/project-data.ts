@@ -6,11 +6,17 @@ export const projectData:ProjectItem[]=[
         category:"Full Stack",
         titleEn:"Application for selling game accounts and services",
         titleVi:"Ứng dụng bán tài khoản và dịch vụ game",
-        descriptionEn:"",
-        descriptionVi:"",
+        descriptionEn:"Nick.vn is a platform specializing in providing quality game accounts and optimal support services for gamers. With high convenience and security, the website helps players easily search, buy and sell reputable game accounts, and experience services from top-up, farming, to technical support for many popular games today. Built on the .NET Core, Tailwind CSS, Next.js and SQL Server technology platforms, Nick.vn ensures high speed, performance, and security, bringing a smooth and reliable experience to users. By optimizing every aspect from the interface to the payment system, Nick.vn is not only a place to exchange accounts, but also a reliable companion of the gaming community.",
+        descriptionVi:"Nick.vn là nền tảng chuyên cung cấp tài khoản game chất lượng và các dịch vụ hỗ trợ tối ưu cho game thủ. Với sự tiện lợi và bảo mật cao, trang web giúp người chơi dễ dàng tìm kiếm, mua bán tài khoản game uy tín, và trải nghiệm các dịch vụ từ nạp tiền, cày thuê, đến hỗ trợ kỹ thuật cho nhiều tựa game phổ biến hiện nay. Được xây dựng trên nền tảng công nghệ .NET Core, Tailwind CSS, Next.js và SQL Server, Nick.vn đảm bảo tốc độ, hiệu năng, và tính an toàn cao, mang đến trải nghiệm mượt mà và tin cậy cho người dùng. Bằng cách tối ưu hóa mọi khía cạnh từ giao diện đến hệ thống thanh toán, Nick.vn không chỉ là nơi trao đổi tài khoản, mà còn là người bạn đồng hành đáng tin cậy của cộng đồng game thủ.",
         stack:".NET Core, Next.js, TailwindCSS, SQL Server",
-        image:[],
-        live:"",
+        image:[
+            "https://profile-namnv.b-cdn.net/Screenshot%202024-10-10%20212146.png",
+            "https://profile-namnv.b-cdn.net/Screenshot%202024-10-10%20212207.png",
+            "https://profile-namnv.b-cdn.net/Screenshot%202024-10-10%20212301.png",
+            "https://profile-namnv.b-cdn.net/Screenshot%202024-10-10%20213307.png",
+            "https://profile-namnv.b-cdn.net/Screenshot%202024-10-10%20213337.png   "
+        ],
+        live:"https://profile-namnv.b-cdn.net/2024-10-10%2023-35-31.mkv",
         source:""
     },
     {
@@ -22,7 +28,7 @@ export const projectData:ProjectItem[]=[
         descriptionVi:"",
         stack:".NET Core, Next.js, TailwindCSS, SQL Server",
         image:[],
-        live:"",
+        live:"https://profile-namnv.b-cdn.net/2024-10-10%2023-35-31.mkv",
         source:""
     },
     {

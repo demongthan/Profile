@@ -30,10 +30,10 @@ const Contact = () => {
             }}
             className='py-6'
         >
-            <div className='flex flex-col xl:flex-row gap-20'>
+            <div className='flex flex-col xl:flex-row gap-8 xl:gap-20'>
                 <div className='xl:w-1/2 order-2 xl:order-none'>
-                    <form className='flex flex-col gap-6 p-10 bg-zinc-600 rounded-xl'>
-                        <h3 className='text-4xl text-cyan-400'>{t("title")}</h3>
+                    <form className='flex flex-col gap-6 p-4 xl:p-10 bg-zinc-600 rounded-xl'>
+                        <h3 className='text-xl xl:text-4xl text-cyan-400'>{t("title")}</h3>
 
                         <div className='grid grid-cols-1 md:grid-cols-2 gap-6 '>
                             <Input type="firstname" placeholder={locale==Language.VietNam?"Họ":'First Name'}></Input>
@@ -67,7 +67,7 @@ const Contact = () => {
                     </form>
                 </div>
 
-                <div className='flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0'>
+                <div className='flex-1 flex items-center xl:justify-end order-1 xl:order-none xl:mb-0'>
                     <ul className='flex flex-col gap-10'>
                         {infoContactData.map((item:InfoContactItem, index:number)=>{
                             return (
@@ -77,8 +77,8 @@ const Contact = () => {
                                     </div>
                                     
                                     <div className='flex-1'>
-                                        <p className='text-white/60'>{locale==Language.VietNam?item.titleVi:item.titleEn}</p>
-                                        <h3 className='text-xl'>{locale==Language.VietNam?item.descriptionVi:item.descriptionEn}</h3>
+                                        <p className='text-slate-500 text-xl dark:text-white/60'>{locale==Language.VietNam?item.titleVi:item.titleEn}</p>
+                                        <h3 className='text-base justify-center'>{locale==Language.VietNam?item.descriptionVi:item.descriptionEn}</h3>
                                     </div>
                                 </li>
                             )
