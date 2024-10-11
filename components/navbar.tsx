@@ -21,7 +21,7 @@ const Navbar = () => {
                 {navData.map((link:NavItem, index:number)=>{
                     return (
                         <Link
-                        className={`${pathName===("/"+locale+link.path) && 'text-cyan-500 dark:text-indigo-600'} relative flex items-center group hover:text-cyan-300 dark:hover:text-indigo-600 transition-all duration-300`} 
+                        className={`${pathName===("/"+locale+(link.path=="/"?"":link.path)) && 'text-cyan-500 dark:text-indigo-600'} relative flex items-center group hover:text-cyan-300 dark:hover:text-indigo-600 transition-all duration-300`} 
                         key={index} 
                         href={`${link.path}`}>
                             <div className='absolute pr-14 right-0 hidden xl:group-hover:flex'>

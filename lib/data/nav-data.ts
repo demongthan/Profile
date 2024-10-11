@@ -4,7 +4,7 @@ import { NavItem } from "../interface/nav-item";
 export const navData:NavItem[]=[
     {
         name:"Home",
-        path:"",
+        path:"/",
         icon:HiHome
     },
     {
