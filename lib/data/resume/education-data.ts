@@ -1,7 +1,7 @@
 import { EducationItem } from "@/lib/interface/education/education-item";
 
 export const educationData:EducationItem={
-    icon:"https://profile-namnv.b-cdn.net/cap.svg",
+    icon:"https://personal-project.b-cdn.net/profile/cap.svg",
     titleEn:"My education",
     titleVi:"Học vấn",
     descriptionEn:"Bachelor of Telecommunications Engineering, Ho Chi Minh City University of Technology. Equipped with extensive knowledge in areas such as communication networks, wireless systems, digital signal processing, and transmission technology. Trained in how to design, analyze, and optimize telecommunication systems, along with practical skills in the lab with modern equipment. In addition, participated in research projects and group exercises, developing the ability to work in groups and solve problems in the high-tech field.",
@@ -29,7 +29,7 @@ export const educationData:EducationItem={
             GPA:"",
             ClassificationEn:"Complete",
             ClassificationVi:"Hoàn thành",
-            imageCertificate:"https://profile-namnv.b-cdn.net/UC-5cb47272-7c7e-49e8-9ce7-5391b020f169.jpg"
+            imageCertificate:"https://personal-project.b-cdn.net/profile/UC-5cb47272-7c7e-49e8-9ce7-5391b020f169.jpg"
         },
         {
             specializedVi: "Clean Code",
@@ -41,7 +41,7 @@ export const educationData:EducationItem={
             GPA:"",
             ClassificationEn:"Complete",
             ClassificationVi:"Hoàn thành",
-            imageCertificate:"https://profile-namnv.b-cdn.net/UC-5cb47272-7c7e-49e8-9ce7-5391b020f169.jpg"
+            imageCertificate:"https://personal-project.b-cdn.net/profile/UC-5cb47272-7c7e-49e8-9ce7-5391b020f169.jpg"
         },
         {
             specializedVi: "Python for Machine Learning & Data Science Masterclass",
@@ -53,7 +53,7 @@ export const educationData:EducationItem={
             GPA:"",
             ClassificationEn:"Complete",
             ClassificationVi:"Hoàn thành",
-            imageCertificate:"https://profile-namnv.b-cdn.net/UC-bcae286b-dd94-4408-a4d9-495c79c14397.jpg"
+            imageCertificate:"https://personal-project.b-cdn.net/profile/UC-bcae286b-dd94-4408-a4d9-495c79c14397.jpg"
         },
         {
             specializedVi: "C# Advanced Topics: Prepare for Technical Interviews",
@@ -65,7 +65,7 @@ export const educationData:EducationItem={
             GPA:"",
             ClassificationEn:"Complete",
             ClassificationVi:"Hoàn thành",
-            imageCertificate:"https://profile-namnv.b-cdn.net/UC-b9dff00d-74f2-4651-997e-250f771c5a91.jpg"
+            imageCertificate:"https://personal-project.b-cdn.net/profile/UC-b9dff00d-74f2-4651-997e-250f771c5a91.jpg"
         },
         {
             specializedVi: "Entity Framework in Depth: The Complete Guide",
@@ -77,7 +77,7 @@ export const educationData:EducationItem={
             GPA:"",
             ClassificationEn:"Complete",
             ClassificationVi:"Hoàn thành",
-            imageCertificate:"https://profile-namnv.b-cdn.net/UC-6c781b4f-6d62-43cf-89b1-474dcd638767.jpg"
+            imageCertificate:"https://personal-project.b-cdn.net/profile/UC-6c781b4f-6d62-43cf-89b1-474dcd638767.jpg"
         }
     ]
 }

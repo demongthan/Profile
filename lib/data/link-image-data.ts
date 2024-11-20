@@ -1,7 +1,9 @@
 export const linkImageData: { [key: string]: string } = {
-    "logo": "https://profile-namnv.b-cdn.net/logo.png",
-    "iconVi":"https://profile-namnv.b-cdn.net/iconVi.png",
-    "iconEn":"https://profile-namnv.b-cdn.net/iconEn.png",
-    "selfie":"https://profile-namnv.b-cdn.net/self.png",
-    "logoMobile":"https://profile-namnv.b-cdn.net/logo%20(1).png"
+    "logo": "https://personal-project.b-cdn.net/profile/logo.png",
+    "iconVi":"https://personal-project.b-cdn.net/profile/iconVi.png",
+    "iconEn":"https://personal-project.b-cdn.net/profile/iconEn.png",
+    "selfie":"https://personal-project.b-cdn.net/profile/self.png",
+    "logoMobile":"https://personal-project.b-cdn.net/profile/logo%20(1).png",
+    "cvVietNam":"https://personal-project.b-cdn.net/profile/Nguyen-Van-Nam-CV-VietNam.pdf",
+    "cvEnglish":"https://personal-project.b-cdn.net/profile/Nguyen-Van-Nam-CV-English.pdf"
 };

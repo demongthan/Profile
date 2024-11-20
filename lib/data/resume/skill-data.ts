@@ -7,51 +7,51 @@ export const skillData:SkillItem={
     descriptionEn:"Experienced and proficient in Front-End and Back-End technologies. Have a background in game programming, design and image editing. Effective project management and teamwork skills, good communication with members to complete work on time. Proactive in learning and applying new technologies to improve product quality.",
     skillList:[
         {
-            icon:"https://profile-namnv.b-cdn.net/dot-net-core.png",
+            icon:"https://personal-project.b-cdn.net/profile/dot-net-core.png",
             name:".NET Core"
         },
         {
-            icon:"https://profile-namnv.b-cdn.net/iconhtml5.png",
+            icon:"https://personal-project.b-cdn.net/profile/iconhtml5.png",
             name:"Html 5"
         },
         {
-            icon:"https://profile-namnv.b-cdn.net/iconcss3.png",
+            icon:"https://personal-project.b-cdn.net/profile/iconcss3.png",
             name:"CSS 3"
         },
         {
-            icon:"https://profile-namnv.b-cdn.net/iconjs.png",
+            icon:"https://personal-project.b-cdn.net/profile/iconjs.png",
             name:"Javascript"
         },
         {
-            icon:"https://profile-namnv.b-cdn.net/iconts.png" ,
+            icon:"https://personal-project.b-cdn.net/profile/iconts.png" ,
             name:"TypeScript"
         },
         {
-            icon:"https://profile-namnv.b-cdn.net/iconreactjs-1.png",
+            icon:"https://personal-project.b-cdn.net/profile/iconreactjs-1.png",
             name:"ReactJs"
         },
         {
-            icon:"https://profile-namnv.b-cdn.net/iconnextjs.png",
+            icon:"https://personal-project.b-cdn.net/profile/iconnextjs.png",
             name:"NextJs"
         },
         {
-            icon:"https://profile-namnv.b-cdn.net/icontailwindcss.png",
+            icon:"https://personal-project.b-cdn.net/profile/icontailwindcss.png",
             name:"Tailwind CSS"
         },
         {
-            icon:"https://profile-namnv.b-cdn.net/unittest.png",
+            icon:"https://personal-project.b-cdn.net/profile/unittest.png",
             name:"Unit Test"
         },
         {
-            icon:"https://profile-namnv.b-cdn.net/iconazure_.png",
+            icon:"https://personal-project.b-cdn.net/profile/iconazure_.png",
             name:"Microsoft Azure"
         },
         {
-            icon:"https://profile-namnv.b-cdn.net/iconunity.png",
+            icon:"https://personal-project.b-cdn.net/profile/iconunity.png",
             name:"Unity"
         },
         {
-            icon:"https://profile-namnv.b-cdn.net/iconPS.png",
+            icon:"https://personal-project.b-cdn.net/profile/iconPS.png",
             name:"Photoshop"
         },
     ]

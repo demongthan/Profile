@@ -1,7 +1,7 @@
 import { ExperienceItem } from "@/lib/interface/experience/experience-item";
 
 export const experienceData:ExperienceItem={
-    icon:"https://profile-namnv.b-cdn.net/badge.svg",
+    icon:"https://personal-project.b-cdn.net/profile/badge.svg",
     titleEn:"My experience",
     titleVi:"Kinh nghiệm",
     descriptionEn:"As a Full Stack Web Developer, I have experience in developing and maintaining web applications from Front-end to Back-end. I have participated in designing user interfaces, building APIs, managing databases and deploying products. Building intuitive, user-friendly interfaces and optimizing website performance. Handling server-side logic, optimizing data processing flows and ensuring security. Designing data models to suit project needs. Creating RESTful APIs and integrating external services (authentication, payment), helping to effectively connect Front-end and Back-end. With the ability to manage work independently and coordinate well with other teams, I always strive to optimize user experience and meet product requirements effectively.",

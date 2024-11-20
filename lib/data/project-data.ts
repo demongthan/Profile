@@ -10,13 +10,13 @@ export const projectData:ProjectItem[]=[
         descriptionVi:"Nick.vn là nền tảng chuyên cung cấp tài khoản game chất lượng và các dịch vụ hỗ trợ tối ưu cho game thủ. Với sự tiện lợi và bảo mật cao, trang web giúp người chơi dễ dàng tìm kiếm, mua bán tài khoản game uy tín, và trải nghiệm các dịch vụ từ nạp tiền, cày thuê, đến hỗ trợ kỹ thuật cho nhiều tựa game phổ biến hiện nay. Được xây dựng trên nền tảng công nghệ .NET Core, Tailwind CSS, Next.js và SQL Server, Nick.vn đảm bảo tốc độ, hiệu năng, và tính an toàn cao, mang đến trải nghiệm mượt mà và tin cậy cho người dùng. Bằng cách tối ưu hóa mọi khía cạnh từ giao diện đến hệ thống thanh toán, Nick.vn không chỉ là nơi trao đổi tài khoản, mà còn là người bạn đồng hành đáng tin cậy của cộng đồng game thủ.",
         stack:".NET Core, Next.js, TailwindCSS, SQL Server",
         image:[
-            "https://profile-namnv.b-cdn.net/Screenshot%202024-10-10%20212146.png",
-            "https://profile-namnv.b-cdn.net/Screenshot%202024-10-10%20212207.png",
-            "https://profile-namnv.b-cdn.net/Screenshot%202024-10-10%20212301.png",
-            "https://profile-namnv.b-cdn.net/Screenshot%202024-10-10%20213307.png",
-            "https://profile-namnv.b-cdn.net/Screenshot%202024-10-10%20213337.png   "
+            "https://personal-project.b-cdn.net/profile/Screenshot%202024-10-10%20212146.png",
+            "https://personal-project.b-cdn.net/profile/Screenshot%202024-10-10%20212207.png",
+            "https://personal-project.b-cdn.net/profile/Screenshot%202024-10-10%20212301.png",
+            "https://personal-project.b-cdn.net/profile/Screenshot%202024-10-10%20213307.png",
+            "https://personal-project.b-cdn.net/profile/Screenshot%202024-10-10%20213337.png   "
         ],
-        live:"https://profile-namnv.b-cdn.net/2024-10-10%2023-35-31.mkv",
+        live:"https://personal-project.b-cdn.net/profile/2024-10-10%2023-35-31.mkv",
         source:""
     },
     {
@@ -28,7 +28,7 @@ export const projectData:ProjectItem[]=[
         descriptionVi:"",
         stack:".NET Core, Next.js, TailwindCSS, SQL Server",
         image:[],
-        live:"https://profile-namnv.b-cdn.net/2024-10-10%2023-35-31.mkv",
+        live:"https://personal-project.b-cdn.net/profile/2024-10-10%2023-35-31.mkv",
         source:""
     },
     {
