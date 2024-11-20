@@ -18,11 +18,12 @@ const Navbar = () => {
             <div className='flex w-full xl:flex-col items-center justify-between xl:justify-center 
             gap-y-10 px-4 md:px-40 xl:px-0 h-[30px] xl:h-max py-6 backdrop-blur-sm text-xl xl:rounded-full bg-slate-200 dark:bg-slate-400'>
                 {navData.map((link:NavItem, index:number)=>{
+                    console.log(pathName, "/"+locale+(link.path=='/'?"":link.path))
                     return (
                         <Link
-                            className={`${pathName==("/"+locale+link.path) && 'text-cyan-500 dark:text-indigo-600'} relative flex items-center group hover:text-cyan-300 dark:hover:text-indigo-600 transition-all duration-300`} 
+                            className={`${pathName==("/"+locale+(link.path=='/'?"":link.path)) && 'text-cyan-500 dark:text-indigo-600'} relative flex items-center group hover:text-cyan-300 dark:hover:text-indigo-600 transition-all duration-300`} 
                             key={index} 
-                            href={`${link.path?link.path:"/"}`}
+                            href={`${link.path}`}
                         >
                             <div className='absolute pr-14 right-0 hidden xl:group-hover:flex'>
                                 <div className='relative flex items-center p-[6px] rounded-[3px] text-black dark:text-white'>
