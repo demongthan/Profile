@@ -23,9 +23,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-    title:"Nguyen Van Nam - Full Stack Developer",
     description: "Full Stack Developer with expertise in creating scalable, user-friendly web applications. Skilled in both front-end and back-end development, delivering seamless and efficient solutions.",
-    icons:"/logo.ico"
 };
 
 interface RootLayoutProps {
