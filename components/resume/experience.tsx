@@ -37,25 +37,25 @@ const Experience = () => {
                                 <table className="table-fixed mr-2 text-sm text-white text-left">
                                     <tbody>
                                         <tr>
-                                            <td className='border-r w-1/5 pr-1 text-left align-top'>Team size</td>
+                                            <td className='border-r w-1/5 pr-1 text-left align-top'>{locale==Language.VietNam?"Thành viên":"Team size"}</td>
                                             <td className='w-4/5 pl-2'>{item.teamSize}</td>
                                         </tr>
                                         <tr className='pt-2'>
-                                            <td className='border-r w-1/5 pr-1 text-left align-top'>Mô tả</td>
+                                            <td className='border-r w-1/5 pr-1 text-left align-top'>{locale==Language.VietNam?"Mô tả":"Description"}</td>
                                             <td className='w-4/5 pl-2'>{locale==Language.VietNam?item.descriptionVi:item.descriptionEn}</td>
                                         </tr>
                                         <tr className='pt-2'>
-                                            <td className='border-r w-1/5 pr-1 text-left align-top'>Vị trí</td>
+                                            <td className='border-r w-1/5 pr-1 text-left align-top'>{locale==Language.VietNam?"Vị trí":"Position"}</td>
                                             <td className='w-4/5 pl-2'>{locale==Language.VietNam?item.positionInTeamVi:item.positionInTeamEn}</td>
                                         </tr>
                                         {item.responsibilityEn && (
                                             <tr className='pt-2'>
-                                                <td className='border-r w-1/5 pr-1 text-left align-top'>Trách nhiệm</td>
+                                                <td className='border-r w-1/5 pr-1 text-left align-top'>{locale==Language.VietNam?"Trách nhiệm":"Responsibility"}</td>
                                                 <td className='w-4/5 pl-2'>{locale==Language.VietNam?item.responsibilityVi:item.responsibilityEn}</td>
                                             </tr>
                                         )}
                                         <tr className='pt-2'>
-                                            <td className='border-r w-1/5 pr-1 text-left align-top'>Công nghệ</td>
+                                            <td className='border-r w-1/5 pr-1 text-left align-top'>{locale==Language.VietNam?"Công nghệ":"Technology"}</td>
                                             <td className='w-4/5 pl-2'>{locale==Language.VietNam?item.technology:item.technology}</td>
                                         </tr>
                                     </tbody>
